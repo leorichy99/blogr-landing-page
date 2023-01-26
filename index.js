@@ -2,9 +2,9 @@ const dropDownHeadsDesktop = document.querySelectorAll(".drop-down-head");
 const dropDownHeadsMobile = document.querySelectorAll(".m-drop-down-head");
 
 const hamburgerIcon = document.querySelector("#hamburger-icon");
-const closeIcon = document.querySelector("#close-icon");
 const menu = document.querySelector(".menu");
 
+// Reveal the drop-down menus when you click on their heads, also add rotation functionality to the arrow images in them
 dropDownHeadsDesktop.forEach(head => {
   head.addEventListener("click", () => head.classList.toggle('clicked'));
 })
